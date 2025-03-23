@@ -1,0 +1,25 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #222;
+	color: white;
+	font-family: Arial, sans-serif;
+	text-align: center;
+
+}
+.magic-box{
+	width: 150px;
+	height: 150px;
+	background-color: #ff4500;
+	transition: all 0.5s ease-in-out;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(255, 69, 0, 0.8);
+}
+.magic-box:hover{
+	transform: rotate(360deg) scale(1.5);
+	background: linear-gradient(45deg, #ff4500, #ffcc00, #00ffcc, #ff00ff);
+	box-shadow: 0 0 50px rgba(255, 255, 255, 1.9);
+}
